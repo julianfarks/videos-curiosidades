@@ -57,4 +57,4 @@ Dialogue: 1,0:00:33.45,0:00:36.40,Callout,,0,0,0,,{\pos(540,430)\fad(120,120)\fs
 Dialogue: 1,0:00:33.45,0:00:36.40,Callout,,0,0,0,,{\pos(540,520)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}VAN DER WAALS
 Dialogue: 1,0:00:39.60,0:00:41.30,Callout,,0,0,0,,{\pos(540,470)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}SIN PEGAMENTO
 Dialogue: 1,0:00:39.90,0:00:41.30,Callout,,0,0,0,,{\pos(540,560)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}SIN VENTOSAS
-Dialogue: 1,0:00:50.55,0:00:51.95,Brand,,0,0,0,,{\pos(540,930)\fad(250,300)}CURIOSIDADES\N{\c&H2BD7FF&}EXTRAORDINARIAS
+Dialogue: 1,0:00:50.55,0:00:51.95,Brand,,0,0,0,,{\pos(540,930)\fad(250,300)}Curiosidades\N{\c&H2BD7FF&}FarKs

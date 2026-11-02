@@ -11,7 +11,7 @@
 | 0:13–0:17.8 | 3 · Rebobinado | «¡Pero espera! Esto no es algo que ocurra habitualmente. ¿Quieres saber por qué?» | Congelado + desaturado (rayado de disco), rebobinado VHS hasta el gecko caminando tranquilo en el techo. |
 | 0:17.8–0:29.2 | 4 · El secreto de sus patas | «El secreto está en sus patas. Sus dedos están cubiertos de millones de estructuras microscópicas llamadas setas, tan diminutas que no podemos verlas a simple vista.» | Macro de la pata despegando los dedos; zoom radial + destello hacia un bosque de **setas** sobre las lamelas; descenso entre ellas hasta las puntas ramificadas (**espátulas**). Rótulos: SETAS · ≈ 0,1 mm · ESPÁTULAS. |
 | 0:29.2–0:41.6 | 5 · La explicación científica | «Estas estructuras generan unas fuerzas de atracción molecular llamadas fuerzas de Van der Waals. Gracias a ellas, el gecko puede adherirse a superficies lisas sin necesidad de pegamento ni ventosas.» | Las espátulas bajan hasta el cristal; zoom a escala atómica: nubes electrónicas fluctuantes que se correlacionan (dipolos δ−/δ+) y aparecen enlaces de atracción débil; vuelta atrás: millones de puntos de contacto brillando bajo el cristal. Rótulos: FUERZAS DE VAN DER WAALS · SIN PEGAMENTO · SIN VENTOSAS. |
-| 0:41.6–0:52 | 6 · Final | «Y lo más impresionante es que puede despegar sus dedos de forma controlada para dar cada paso. ¡La naturaleza tiene soluciones increíbles!» | Plano bajo de la pata: los dedos se despegan de la punta hacia la base en cada paso. Primer plano de la cara: el gecko gira la cabeza, mira a cámara y se limpia el ojo con la lengua; sigue caminando. Acorde final, pausa musical y fundido a negro con la firma de la serie. |
+| 0:41.6–0:52 | 6 · Final | «Y lo más impresionante es que puede despegar sus dedos de forma controlada para dar cada paso. ¡La naturaleza tiene soluciones increíbles!» | Plano bajo de la pata: los dedos se despegan de la punta hacia la base en cada paso. Primer plano de la cara: el gecko gira la cabeza, mira a cámara y se limpia el ojo con la lengua; sigue caminando. Acorde final, pausa musical y fundido a negro con la firma «Curiosidades FarKs». |
 
 ## Notas científicas (verificadas)
 
@@ -31,3 +31,8 @@
 - `scripts/build_audio.py`, `scripts/build_subs.py`, `scripts/montaje.sh` — reconstrucción de audio, subtítulos y montaje.
 - `previews/` — fotogramas de referencia.
 - La animación se renderiza con el motor compartido en [`/motor-render`](../../motor-render).
+
+## Historial de versiones
+
+- **v2** — Locomoción del gecko corregida: patas en postura abierta de lagarto con IK de 2 huesos y polos hacia fuera; pies orientados hacia fuera (antes los traseros apuntaban hacia el cuerpo); rangos de zancada separados entre pata delantera y trasera; arco de balanceo hacia fuera con más altura; codos/rodillas forzados fuera del torso. Verificado en 4 ciclos completos de marcha (400 muestras): ninguna parte de la pata entra en el torso más allá de la raíz del hombro/cadera, separación mínima entre patas 2,9 cm, ángulo mínimo de codo 82°, pies siempre sobre la superficie. Firma final: «Curiosidades FarKs».
+- **v1** — Primera versión.

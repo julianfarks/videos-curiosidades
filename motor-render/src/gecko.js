@@ -181,7 +181,7 @@ export function buildGecko() {
     const up = new THREE.Mesh(cyl, limbMat), lo = new THREE.Mesh(cyl, limbMat);
     const j0 = new THREE.Mesh(sph, limbMat), j1 = new THREE.Mesh(sph, limbMat), palm = new THREE.Mesh(sph, limbMat);
     for (const m of [up, lo, j0, j1, palm]) { m.castShadow = true; inner.add(m); }
-    j0.scale.setScalar(0.0062); j1.scale.setScalar(0.0045); palm.scale.set(0.0058, 0.0026, 0.0052);
+    j0.scale.setScalar(0.0062); j1.scale.setScalar(0.0051); palm.scale.set(0.0058, 0.0026, 0.0052);
     const foot = new THREE.Group(); inner.add(foot);
     const toes = [];
     const spread = d.front ? [-1.05, -0.5, 0.0, 0.48, 0.98] : [-1.2, -0.62, -0.05, 0.5, 1.05];
@@ -199,7 +199,7 @@ export function buildGecko() {
   }
 
   const state = {
-    walk: 0, sway: 1, duty: 0.66, S: 0.052, lift: 0.014,
+    walk: 0, sway: 1, duty: 0.66, S: 0.052, lift: 0.020,
     headYaw: 0, headPitch: 0, tailCurl: 0, look: null, tongue: 0,
     detached: 0, flail: 0, time: 0, gripSpread: 0, peelBoost: 0, peelLeg: -1, peelAmt: 0,
   };
@@ -274,34 +274,55 @@ export function buildGecko() {
       inner.add(tongue);
     }
 
-    // legs
+    // legs — sprawling lizard posture, 2-bone IK with outward poles, collision-safe foot paths
+    const UP = new THREE.Vector3(0, 1, 0);
     for (let li = 0; li < legs.length; li++) {
       const L = legs[li];
       const [ayc, azc, aw, ah] = center(L.ax, s, bodyX);
-      const shoulder = new THREE.Vector3(L.ax + bodyX, ayc - ah * 0.15, azc + L.side * aw * 0.78);
+      // shoulder/hip sits on the flank (just inside the skin), a bit below the body midline
+      const shoulder = new THREE.Vector3(L.ax + bodyX, ayc - ah * 0.25, azc + L.side * aw * 0.97);
       const c = s.walk + L.off; const k = Math.floor(c); const f = c - k;
-      const baseX = L.front ? 0.020 : -0.030;
-      const lateral = L.side * (L.front ? 0.050 : 0.054);
-      let rel, y = 0, peel = 0;
+      // stride ranges: front feet stay ahead of the shoulder, hind feet behind the hip -> no overlap between ipsilateral legs
+      const baseX = L.front ? 0.064 : -0.046;
+      let rel, y = 0, peel = 0, out = 0, g = 0, swing = false;
       if (f < s.duty) { rel = baseX + s.S * s.duty / 2 - s.S * f; peel = smooth(s.duty - 0.10, s.duty, f); }
-      else { const g = (f - s.duty) / (1 - s.duty); rel = baseX - s.S * s.duty / 2 + s.S * s.duty * (g * g * (3 - 2 * g)); y = s.lift * Math.sin(Math.PI * g); peel = 1 - smooth(0.2, 0.7, g); }
-      if (s.peelLeg === li) { peel = Math.max(peel, s.peelAmt); y = Math.max(y, s.peelAmt * 0.012); }
-      let foot = new THREE.Vector3(bodyX + rel, y + 0.002, lateral + (center(L.ax + rel, s, bodyX)[1]) * 0.4);
+      else {
+        swing = true; g = (f - s.duty) / (1 - s.duty);
+        rel = baseX - s.S * s.duty / 2 + s.S * s.duty * (g * g * (3 - 2 * g));
+        // lift with a fast rise / soft landing, and an outward arc so the swinging limb clears the flank
+        y = s.lift * Math.pow(Math.sin(Math.PI * g), 0.8);
+        out = 0.010 * Math.sin(Math.PI * g);
+        peel = 1 - smooth(0.2, 0.7, g);
+      }
+      if (s.peelLeg === li) { peel = Math.max(peel, s.peelAmt); y = Math.max(y, s.peelAmt * 0.014); out = Math.max(out, s.peelAmt * 0.006); }
+      const fx = L.ax + rel; // foot x in body coords
+      const [, fzc, fw] = center(clamp(fx, XMIN + 0.01, XMAX - 0.01), s, bodyX);
+      // lateral placement follows the body line under the foot, always at least 2.4 cm outside the flank
+      const lat = Math.max(L.front ? 0.054 : 0.060, fw + 0.021) + out;
+      let foot = new THREE.Vector3(bodyX + rel, y + 0.0022, fzc + L.side * lat);
       if (s.detached > 0) {
-        const fl = new THREE.Vector3(shoulder.x + (L.front ? 0.03 : -0.03) + Math.sin(s.time * 13 + li) * 0.012, shoulder.y - 0.006 + Math.cos(s.time * 11 + li * 2) * 0.012, shoulder.z + L.side * 0.045);
+        const fl = new THREE.Vector3(shoulder.x + (L.front ? 0.03 : -0.03) + Math.sin(s.time * 13 + li) * 0.012, shoulder.y - 0.006 + Math.cos(s.time * 11 + li * 2) * 0.012, shoulder.z + L.side * (0.045 + 0.008 * Math.sin(s.time * 9 + li)));
         foot.lerp(fl, s.detached); peel = Math.max(peel, s.detached * (0.5 + 0.5 * Math.sin(s.time * 15 + li)));
       }
-      const pole = shoulder.clone().add(new THREE.Vector3(L.front ? -0.03 : 0.03, 0.035, L.side * 0.02));
-      const elbow = ik2(shoulder, foot.clone().add(new THREE.Vector3(0, 0.004, 0)), 0.026, 0.024, pole);
-      const wrist = foot.clone().add(new THREE.Vector3(0, 0.004, 0));
-      placeSegment(L.up, shoulder, elbow, 0.0058); placeSegment(L.lo, elbow, wrist, 0.0044);
-      L.j0.position.copy(shoulder); L.j1.position.copy(elbow); L.palm.position.copy(foot).add(new THREE.Vector3(0, 0.002, 0));
+      const wrist = foot.clone().add(new THREE.Vector3(0, 0.0042, 0));
+      // pole: elbows point back-outward-up, knees forward-outward-up (never toward the torso)
+      const pole = shoulder.clone().add(new THREE.Vector3(L.front ? -0.018 : 0.018, 0.026, L.side * 0.07));
+      const l1 = 0.0255, l2 = 0.0255;
+      const elbow = ik2(shoulder, wrist, l1, l2, pole);
+      // safety: keep the elbow/knee outside the body cross-section and above the surface
+      {
+        const [eyc, ezc, ew, eh] = center(clamp(elbow.x - bodyX, XMIN + 0.01, XMAX - 0.01), s, bodyX);
+        const minOut = ew + 0.0075;
+        if (L.side * (elbow.z - ezc) < minOut) elbow.z = ezc + L.side * minOut;
+        if (elbow.y < 0.009) elbow.y = 0.009;
+      }
+      placeSegment(L.up, shoulder, elbow, 0.0056); placeSegment(L.lo, elbow, wrist, 0.0043);
+      L.j0.position.copy(shoulder); L.j1.position.copy(elbow); L.palm.position.copy(foot).add(new THREE.Vector3(0, 0.0018, 0));
       L.foot.position.copy(foot);
-      const yaw = L.front ? L.side * 0.55 : L.side * 1.45;
-      L.foot.rotation.set(0, -yaw + (L.front ? 0 : 0), 0);
-      if (!L.front) L.foot.rotation.y = -L.side * 0.0 + (L.side > 0 ? 2.2 : -2.2) * -1 + Math.PI * (L.side > 0 ? 1 : -1) * 0;
-      L.foot.rotation.y = L.front ? (L.side > 0 ? 0.55 : -0.55) : (L.side > 0 ? 2.15 : -2.15);
-      // toes: peel distal first (digital hyperextension)
+      // feet point away from the body: front = forward-outward, hind = backward-outward (rotation.y < 0 turns +x toward +z)
+      L.foot.rotation.set(0, L.front ? -L.side * 0.50 : -L.side * 2.20, 0);
+      // during swing the whole foot pitches toes-up slightly, then flattens before touchdown
+      L.foot.rotation.z = swing ? 0.18 * Math.sin(Math.PI * g) * (L.front ? 1 : -1) * 0 : 0;
       for (let t = 0; t < 5; t++) {
         const toe = L.toes[t];
         const pe = clamp(peel * 1.25 - t * 0.04);
@@ -309,7 +330,43 @@ export function buildGecko() {
         toe.dist.rotation.z = smooth(0.0, 0.6, pe) * 0.95;
         toe.base.rotation.x = 0;
       }
+      L.dbg = { shoulder: shoulder.clone(), elbow: elbow.clone(), wrist: wrist.clone(), foot: foot.clone() };
     }
+  }
+
+  // ---- diagnostics: penetration of limbs into the body and between limbs (local units, metres at scale 1) ----
+  function diagnose() {
+    const s = state; const bodyX = s.S * s.walk; let worstBody = 1e9, worstLeg = 1e9, worstSelf = 1e9, where = '';
+    const segs = [];
+    for (let li = 0; li < legs.length; li++) {
+      const d = legs[li].dbg; if (!d) continue;
+      segs.push({ li, a: d.shoulder, b: d.elbow, r: 0.0056, part: 'up' }, { li, a: d.elbow, b: d.wrist, r: 0.0043, part: 'lo' });
+      // toe tips in local coords
+      for (const toe of legs[li].toes) { const p = new THREE.Vector3(0.0036 + 0.004, 0, 0); toe.dist.localToWorld(p); inner.worldToLocal(p); segs.push({ li, a: p, b: p, r: 0.0015, part: 'toe' }); }
+    }
+    // body clearance: sample points along segments, skip the 30% nearest the shoulder (that joint is meant to be embedded)
+    for (const sg of segs) {
+      for (let i = 0; i <= 10; i++) {
+        const t = i / 10; if (sg.part === 'up' && t < 0.5) continue;
+        const p = sg.a.clone().lerp(sg.b, t); const x = p.x - bodyX; if (x < XMIN + 0.005 || x > XMAX - 0.005) continue;
+        const [yc, zc, w, h] = center(x, s, bodyX);
+        const dy = p.y - yc, dz = p.z - zc; const rr = Math.hypot(dy / (h + sg.r), dz / (w + sg.r));
+        const clr = (rr - 1) * Math.min(w, h);
+        if (clr < worstBody) { worstBody = clr; where = `leg${sg.li}-${sg.part} t=${t}`; }
+      }
+    }
+    // limb-vs-limb (different legs)
+    const segDist = (p1, q1, p2, q2) => { let m = 1e9; for (let i = 0; i <= 8; i++) for (let j = 0; j <= 8; j++) m = Math.min(m, p1.clone().lerp(q1, i / 8).distanceTo(p2.clone().lerp(q2, j / 8))); return m; };
+    for (let i = 0; i < segs.length; i++) for (let j = i + 1; j < segs.length; j++) {
+      if (segs[i].li === segs[j].li) continue;
+      const d = segDist(segs[i].a, segs[i].b, segs[j].a, segs[j].b) - segs[i].r - segs[j].r;
+      if (d < worstLeg) worstLeg = d;
+    }
+    // self: lower limb vs upper limb folding (angle at elbow)
+    for (const L of legs) { const d = L.dbg; const v1 = d.shoulder.clone().sub(d.elbow).normalize(), v2 = d.wrist.clone().sub(d.elbow).normalize(); const ang = Math.acos(clamp(v1.dot(v2), -1, 1)); worstSelf = Math.min(worstSelf, ang); }
+    // feet below surface?
+    let minFootY = 1e9; for (const L of legs) minFootY = Math.min(minFootY, L.dbg.foot.y);
+    return { worstBody, worstLeg, elbowMinDeg: worstSelf * 180 / Math.PI, minFootY, where };
   }
 
   // world position helpers
@@ -325,5 +382,5 @@ export function buildGecko() {
   }
 
   update({});
-  return { root, inner, update, state, headWorld, eyeWorld, footWorld, bodyWorld, legs, eyes };
+  return { root, inner, update, state, headWorld, eyeWorld, footWorld, bodyWorld, legs, eyes, diagnose };
 }

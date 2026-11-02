@@ -43,7 +43,7 @@ callouts = [(24.30, 26.90, 'SETAS', 470), (25.30, 26.90, '≈ 0,1 mm', 560), (27
             (39.60, 41.30, 'SIN PEGAMENTO', 470), (39.90, 41.30, 'SIN VENTOSAS', 560)]
 for st, en, txt, y in callouts:
     ev.append(f"Dialogue: 1,{ts_ass(st)},{ts_ass(en)},Callout,,0,0,0,,{{\\pos(540,{y})\\fad(120,120)\\fscx80\\fscy80\\t(0,160,\\fscx100\\fscy100)}}{txt}")
-ev.append(f"Dialogue: 1,{ts_ass(50.55)},{ts_ass(51.95)},Brand,,0,0,0,,{{\\pos(540,930)\\fad(250,300)}}CURIOSIDADES\\N{{\\c&H2BD7FF&}}EXTRAORDINARIAS")
+ev.append(f"Dialogue: 1,{ts_ass(50.55)},{ts_ass(51.95)},Brand,,0,0,0,,{{\\pos(540,930)\\fad(250,300)}}Curiosidades\\N{{\\c&H2BD7FF&}}FarKs")
 ass = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080

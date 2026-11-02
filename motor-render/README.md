@@ -12,6 +12,7 @@ Animación 3D procedural y determinista hecha con **three.js r187** y renderizad
 - `src/post.js` — DOF, bloom, tonemapping y shader de gradación (viñeta, grano, flash, zoom radial, rebobinado VHS).
 - `renderseg.js` — renderiza rangos de fotogramas y los codifica por escena.
 - `shot.js`, `sheet.js` — fotogramas sueltos / hojas de contacto para revisar.
+- `diag.js` — comprueba colisiones de las patas del gecko (torso, otras patas, pliegue de codo, suelo) en 4 ciclos de marcha.
 
 ## Uso
 ```bash

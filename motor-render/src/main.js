@@ -246,4 +246,14 @@ window.debugView = (T, px, py, pz, lx, ly, lz, fov = 30) => {
   window.renderFrame(T); resetFX(); applyCam({ pos: V(px, py, pz), look: V(lx, ly, lz), fov }); post.set(room, cam); post.composer.render();
   return renderer.domElement.toDataURL('image/jpeg', 0.93);
 };
+window.diagWalk = (n = 400) => {
+  const res = { worstBody: 1e9, worstLeg: 1e9, elbowMinDeg: 1e9, minFootY: 1e9, where: '' };
+  for (let i = 0; i < n; i++) {
+    const w = i / n * 4; geckoOnCeiling(w, { peelLeg: -1, peelAmt: 0 });
+    const d = gecko.diagnose();
+    if (d.worstBody < res.worstBody) { res.worstBody = d.worstBody; res.where = d.where + ' w=' + w.toFixed(3); }
+    res.worstLeg = Math.min(res.worstLeg, d.worstLeg); res.elbowMinDeg = Math.min(res.elbowMinDeg, d.elbowMinDeg); res.minFootY = Math.min(res.minFootY, d.minFootY);
+  }
+  return res;
+};
 window.READY = true;

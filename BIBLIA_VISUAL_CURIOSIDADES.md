@@ -22,6 +22,7 @@ Referencia de producción: Episodio 001 — *¿Por qué los geckos no se caen?* 
 - **Look:** animación 3D cinematográfica estilizada, a medio camino entre realismo y caricatura (referencia de calidad: largometrajes de animación modernos, con acabado propio).
 - **Personajes:** formas suaves y redondeadas, proporciones ligeramente exageradas (cabezas grandes, ojos grandes y brillantes), pero con materiales naturales; nunca aspecto de juguete de plástico liso.
 - **Ojos:** siempre grandes, con iris texturizado, córnea brillante con reflejo especular y mirada dirigida (los personajes miran a cosas concretas y, en el remate, a cámara).
+- **Locomoción:** extremidades con IK de 2 huesos, polos de codo/rodilla hacia fuera, trayectorias de pie que nunca cruzan el torso ni otras patas; validar con `motor-render/diag.js` (holgura ≥ 0 en todo el ciclo) antes de renderizar.
 - **Animales:** anatomía reconocible y correcta (ej. el gecko diurno verde: pupila redonda, sin párpados móviles, se limpia el ojo con la lengua, almohadillas con lamelas, despegue de dedos distal → proximal).
 - **Humanos:** ropa casual, expresiones faciales exageradas y legibles (cejas, apertura de ojos y boca), poses claras de silueta.
 - **Mundo microscópico / científico:** misma dirección artística (iluminación de contraluz cálido, niebla atmosférica, partículas suspendidas), **nunca** infografía plana. La ciencia se representa simplificada pero correcta (nada de imanes, pegamento o ventosas si no es lo que ocurre).
@@ -64,7 +65,7 @@ Referencia de producción: Episodio 001 — *¿Por qué los geckos no se caen?* 
 - Animación de aparición: *pop* 86 % → 100 % en 110 ms + fundido 70 ms.
 - Máx. 4 palabras / ~20 caracteres por subtítulo; sincronizados palabra a palabra con la narración (timestamps por reconocimiento de voz).
 - Rótulos científicos ("callouts"): Inter ExtraBold 58 px en MAYÚSCULAS, centrados en la zona superior, con *pop* y fundido.
-- Firma final: "CURIOSIDADES / EXTRAORDINARIAS" (segunda línea en amarillo) sobre el fundido a negro.
+- Firma final: "Curiosidades / FarKs" (segunda línea en amarillo) sobre el fundido a negro.
 
 ## 7. Estilo de narración
 
