@@ -1,0 +1,318 @@
+PROYECTO: CURIOSIDADES EXTRAORDINARIAS
+
+EPISODIO 001 — ¿POR QUÉ LOS GECKOS NO SE CAEN?
+
+Quiero que produzcas un vídeo animado profesional de aproximadamente 50 segundos, con calidad cinematográfica, pensado para TikTok, YouTube Shorts e Instagram Reels.
+
+No quiero una presentación de diapositivas ni imágenes estáticas con movimiento artificial. Quiero una pequeña película animada, con personajes, escenarios tridimensionales, movimientos naturales, expresiones faciales, movimientos de cámara y transiciones profesionales.
+
+IMPORTANTE: Este proyecto establecerá la identidad visual de una serie de vídeos. Debes conservar el mismo estilo artístico, calidad, iluminación y lenguaje visual para todos los episodios futuros.
+
+---
+
+1. ESTILO DE ANIMACIÓN OBLIGATORIO
+
+Utiliza el siguiente estilo durante TODO el vídeo:
+
+Animación 3D cinematográfica de alta calidad, inspirada en las películas modernas de animación de estudios como Pixar y DreamWorks, pero con un acabado visual propio.
+
+Características:
+
+- Modelos 3D detallados.
+- Texturas naturales y realistas.
+- Iluminación cinematográfica.
+- Sombras suaves y reflejos naturales.
+- Animaciones fluidas y físicas creíbles.
+- Expresiones faciales bien trabajadas.
+- Profundidad de campo cinematográfica.
+- Movimientos de cámara profesionales.
+- Entornos tridimensionales completos.
+- Transiciones suaves y elaboradas.
+- Excelente composición visual.
+
+La animación debe tener un equilibrio entre realismo y caricatura. Los personajes deben ser atractivos visualmente, pero no parecer juguetes ni dibujos infantiles.
+
+NO CAMBIAR DE ESTILO ENTRE ESCENAS. Incluso las explicaciones científicas y las escenas microscópicas deben conservar la misma dirección artística.
+
+2. PERSONAJES
+
+Personaje principal: el gecko
+
+Crear un gecko verde de apariencia natural.
+
+Características:
+
+- Color verde natural.
+- Ojos grandes, brillantes y expresivos.
+- Dedos característicos de los geckos.
+- Piel con pequeñas escamas detalladas.
+- Anatomía reconocible y movimientos naturales.
+- Sin ropa, accesorios, armaduras ni elementos fantásticos.
+
+Debe ser el mismo gecko durante todo el vídeo. No cambiar su apariencia, colores, proporciones ni diseño entre escenas.
+
+Personaje secundario: el hombre
+
+Crear un hombre adulto de aspecto cotidiano.
+
+Características:
+
+- Ropa casual.
+- Apariencia natural.
+- Expresiones faciales exageradas y divertidas.
+- Movimientos corporales creíbles.
+- Debe transmitir sorpresa cuando el gecko cae encima de él.
+
+Mantener exactamente el mismo diseño del hombre durante las escenas en las que aparezca.
+
+3. GUION COMPLETO Y DESARROLLO DE LAS ESCENAS
+
+Duración objetivo: 50 segundos.
+
+Formato: vertical 9:16, resolución 1080 × 1920 como mínimo.
+
+La narración debe ser en español latino neutro, con una voz masculina clara, expresiva y profesional.
+
+ESCENA 1 — LA PREGUNTA
+
+Tiempo: 0-8 segundos
+
+Visual:
+
+Mostrar una habitación moderna, acogedora y bien iluminada. Un hombre está sentado tranquilamente en un sofá.
+
+En el techo aparece nuestro gecko verde caminando boca abajo.
+
+La cámara comienza mostrando al hombre y sube lentamente hasta encontrar al gecko. Después realiza un acercamiento cinematográfico.
+
+Narración EXACTA:
+
+«¿Te has preguntado alguna vez por qué los geckos nunca se caen de las paredes o del techo?»
+
+La pregunta debe despertar curiosidad.
+
+ESCENA 2 — LA CAÍDA INESPERADA
+
+Tiempo: 8-13 segundos
+
+Visual:
+
+El gecko pierde momentáneamente el contacto con el techo y cae encima del hombre.
+
+El hombre se asusta de manera exagerada, levanta los brazos y reacciona sorprendido.
+
+El gecko debe verse claramente durante la caída.
+
+Utilizar un efecto cómico de sonido cuando el hombre se asuste.
+
+Narración EXACTA:
+
+«¡Bueno! Imagina que esto te pasara...»
+
+La escena debe tener un toque de humor.
+
+ESCENA 3 — REBOBINADO
+
+Tiempo: 13-17 segundos
+
+Visual:
+
+Congelar la imagen justo después de la reacción del hombre.
+
+Añadir un efecto de rebobinado cinematográfico. La habitación, el hombre y el gecko retroceden rápidamente hasta regresar al momento en que el gecko estaba caminando tranquilamente por el techo.
+
+Incluir sonido de cinta rebobinándose.
+
+Narración EXACTA:
+
+«¡Pero espera! Esto no es algo que ocurra habitualmente. ¿Quieres saber por qué?»
+
+La transición debe conectar perfectamente con la siguiente explicación.
+
+ESCENA 4 — EL SECRETO DE SUS PATAS
+
+Tiempo: 17-31 segundos
+
+Visual:
+
+La cámara se acerca progresivamente al gecko.
+
+Primero mostrar una pata en primer plano. Después realizar una transición de macrofotografía hasta entrar en una representación microscópica de sus dedos.
+
+Mostrar millones de estructuras diminutas parecidas a filamentos.
+
+Representar las setas y sus ramificaciones microscópicas con gran detalle.
+
+La escena debe ser espectacular visualmente, como si estuviéramos explorando un mundo microscópico.
+
+Narración EXACTA:
+
+«El secreto está en sus patas. Sus dedos están cubiertos de millones de estructuras microscópicas llamadas setas, tan diminutas que no podemos verlas a simple vista».
+
+La información científica debe ser correcta. No representar las setas como ventosas.
+
+ESCENA 5 — LA EXPLICACIÓN CIENTÍFICA
+
+Tiempo: 31-43 segundos
+
+Visual:
+
+Mostrar una superficie de cristal y las estructuras microscópicas del gecko entrando en contacto con ella.
+
+Crear una animación científica tridimensional que represente las interacciones moleculares responsables de la adherencia.
+
+Utilizar partículas, acercamientos microscópicos y una representación visual clara de la interacción entre las superficies.
+
+Narración EXACTA:
+
+«Estas estructuras generan unas fuerzas de atracción molecular llamadas fuerzas de Van der Waals. Gracias a ellas, el gecko puede adherirse a superficies lisas sin necesidad de pegamento ni ventosas».
+
+No representar estas fuerzas como imanes gigantes. La visualización debe ser una representación científica simplificada, no una afirmación de que existe un pegamento físico.
+
+ESCENA 6 — FINAL
+
+Tiempo: 43-50 segundos
+
+Visual:
+
+Regresar a la habitación original.
+
+El mismo gecko camina tranquilamente por el techo.
+
+La cámara realiza un acercamiento a su cara. El gecko mira directamente hacia la cámara y continúa caminando.
+
+El hombre aparece al fondo mirando hacia arriba con cierta desconfianza.
+
+Narración EXACTA:
+
+«Y lo más impresionante es que puede despegar sus dedos de forma controlada para dar cada paso. ¡La naturaleza tiene soluciones increíbles!»
+
+Terminar con una pequeña pausa musical y una transición elegante a negro.
+
+4. VOZ Y NARRACIÓN
+
+Quiero que el vídeo tenga narración generada mediante inteligencia artificial.
+
+Requisitos:
+
+- Idioma: español latino.
+- Voz masculina.
+- Acento latino neutro.
+- Buena pronunciación.
+- Tono documental entretenido.
+- Personalidad curiosa y expresiva.
+- Ritmo natural.
+- Sin sonar robótico.
+- Buena calidad de audio.
+
+Si tu entorno dispone de un sistema de generación de voz, utilízalo.
+
+Si no tienes generación de voz disponible, busca una alternativa compatible o entrega el archivo de narración preparado para generar el audio. No simules que has creado un audio que realmente no existe.
+
+La voz debe estar perfectamente sincronizada con las imágenes.
+
+5. SUBTÍTULOS
+
+Generar subtítulos en español sincronizados con la narración.
+
+Características:
+
+- Fuente moderna, gruesa y fácil de leer.
+- Color blanco.
+- Contorno negro para mejorar la visibilidad.
+- Palabras importantes resaltadas en amarillo.
+- Posición centrada en la zona inferior, sin tapar personajes.
+- Animación sutil de aparición.
+- Sin errores ortográficos.
+- Sin desfases respecto a la voz.
+
+Los subtítulos deben corresponder exactamente a lo que dice el narrador.
+
+6. MÚSICA Y EFECTOS DE SONIDO
+
+Añadir música instrumental cinematográfica de fondo.
+
+La música debe acompañar la curiosidad y generar interés, sin competir con la voz.
+
+Efectos necesarios:
+
+- Ambiente suave de habitación.
+- Sonido cómico durante la caída.
+- Efecto de rebobinado.
+- Sonidos sutiles durante el acercamiento microscópico.
+- Efectos ambientales durante la explicación científica.
+- Cierre musical cinematográfico.
+
+Ajustar automáticamente el volumen de la música para que la narración siempre sea clara.
+
+7. REQUISITOS TÉCNICOS Y DE CALIDAD
+
+- Duración objetivo: 50 segundos.
+- Formato vertical 9:16.
+- Resolución: 1080 × 1920 o superior.
+- Preferiblemente 30 FPS o superior.
+- Audio y vídeo sincronizados.
+- Sin marcas de agua.
+- Sin textos deformados.
+- Sin personajes que cambien de apariencia.
+- Sin extremidades deformadas.
+- Sin movimientos robóticos.
+- Sin cortes bruscos.
+- Sin escenas que parezcan imágenes estáticas.
+- No utilizar imágenes aleatorias que no correspondan con la narración.
+
+La continuidad entre escenas es fundamental.
+
+8. IDENTIDAD VISUAL PERMANENTE DE LA SERIE
+
+MUY IMPORTANTE:
+
+Este vídeo es el primer episodio de una serie llamada provisionalmente:
+
+CURIOSIDADES EXTRAORDINARIAS
+
+Quiero que guardes y documentes una guía de identidad visual reutilizable para los siguientes episodios.
+
+Esta guía debe incluir:
+
+1. Estilo exacto de animación 3D.
+2. Características de iluminación.
+3. Configuración de cámara.
+4. Estilo de texturas y materiales.
+5. Tratamiento de colores.
+6. Tipografía de subtítulos.
+7. Estilo de narración.
+8. Tratamiento de música y efectos.
+9. Ritmo de edición.
+10. Configuración de renderizado.
+
+En los próximos vídeos podremos cambiar completamente de protagonistas, escenarios y temática, pero NO quiero que cambie la identidad visual de la serie.
+
+Un episodio podría tratar sobre animales, otro sobre construcciones gigantescas, otro sobre tecnología y otro sobre misterios del universo. Todos deben parecer producidos dentro del mismo universo cinematográfico.
+
+Guarda esta guía como un documento reutilizable llamado:
+
+"BIBLIA_VISUAL_CURIOSIDADES.md"
+
+También quiero que el proyecto quede organizado para facilitar la producción de futuros episodios.
+
+9. ENTREGA FINAL
+
+Quiero que produzcas el vídeo real, no solamente el guion o una simulación.
+
+Si dispones de herramientas para generar escenas, animación, voz y edición, utilízalas para construir el vídeo completo.
+
+Si alguna herramienta o capacidad no está disponible, identifica exactamente qué falta y qué parte sí puedes producir. No afirmes que has renderizado un vídeo si no existe un archivo reproducible.
+
+Entrega:
+
+- Vídeo final MP4.
+- Audio de narración.
+- Subtítulos SRT.
+- Guion utilizado.
+- Biblia visual reutilizable.
+- Recursos y proyecto organizado para futuros episodios.
+
+PRIORIDAD ABSOLUTA: Quiero que el resultado parezca una producción profesional de animación 3D, no un vídeo automático de fotografías con una voz encima.
+
+Dedica especial atención a la primera escena, la caída cómica, el rebobinado y la transición microscópica. Esos son los momentos que harán que el espectador quiera seguir viendo el vídeo.

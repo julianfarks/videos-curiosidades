@@ -1,0 +1,4 @@
+motor-render/three/
+**/segs/
+*.part.mp4
+node_modules/

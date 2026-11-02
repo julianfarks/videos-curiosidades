@@ -1,0 +1,60 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
+Style: Callout,Inter ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,3,0,1,5,2,5,40,40,40,1
+Style: Brand,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,4,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.15,0:00:02.34,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¿Te has preguntado alguna
+Dialogue: 0,0:00:02.35,0:00:03.14,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}vez por qué los
+Dialogue: 0,0:00:03.15,0:00:04.40,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}geckos{\c&HFFFFFF&} nunca se caen
+Dialogue: 0,0:00:04.41,0:00:05.20,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de las {\c&H2BD7FF&}paredes{\c&HFFFFFF&} o
+Dialogue: 0,0:00:05.21,0:00:06.11,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}del {\c&H2BD7FF&}techo?{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.35,0:00:10.82,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Bueno!
+Dialogue: 0,0:00:10.83,0:00:11.62,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Imagina que esto te
+Dialogue: 0,0:00:11.63,0:00:12.45,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}pasara...
+Dialogue: 0,0:00:13.15,0:00:14.09,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Pero espera!
+Dialogue: 0,0:00:14.11,0:00:14.84,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Esto no es algo
+Dialogue: 0,0:00:14.85,0:00:16.51,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}que ocurra habitualmente.
+Dialogue: 0,0:00:16.63,0:00:17.97,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¿Quieres saber por qué?
+Dialogue: 0,0:00:18.15,0:00:19.06,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}El {\c&H2BD7FF&}secreto{\c&HFFFFFF&} está en
+Dialogue: 0,0:00:19.07,0:00:20.03,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}sus {\c&H2BD7FF&}patas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.05,0:00:21.52,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Sus {\c&H2BD7FF&}dedos{\c&HFFFFFF&} están cubiertos
+Dialogue: 0,0:00:21.53,0:00:22.96,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de {\c&H2BD7FF&}millones{\c&HFFFFFF&} de estructuras
+Dialogue: 0,0:00:22.97,0:00:24.22,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}microscópicas{\c&HFFFFFF&} llamadas
+Dialogue: 0,0:00:24.23,0:00:25.10,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}setas,{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.11,0:00:26.44,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}tan {\c&H2BD7FF&}diminutas{\c&HFFFFFF&} que no
+Dialogue: 0,0:00:26.45,0:00:27.52,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}podemos verlas a simple
+Dialogue: 0,0:00:27.53,0:00:28.29,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}vista.
+Dialogue: 0,0:00:29.55,0:00:30.86,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Estas estructuras generan
+Dialogue: 0,0:00:30.87,0:00:31.94,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}unas fuerzas de {\c&H2BD7FF&}atracción{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.95,0:00:33.26,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}molecular{\c&HFFFFFF&} llamadas fuerzas
+Dialogue: 0,0:00:33.27,0:00:34.79,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de {\c&H2BD7FF&}Van{\c&HFFFFFF&} {\c&H2BD7FF&}der{\c&HFFFFFF&} {\c&H2BD7FF&}Waals.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.11,0:00:36.42,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Gracias a ellas,
+Dialogue: 0,0:00:36.43,0:00:37.66,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}el {\c&H2BD7FF&}gecko{\c&HFFFFFF&} puede adherirse
+Dialogue: 0,0:00:37.67,0:00:39.04,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}a superficies lisas sin
+Dialogue: 0,0:00:39.05,0:00:40.28,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}necesidad de {\c&H2BD7FF&}pegamento{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.29,0:00:41.35,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}ni {\c&H2BD7FF&}ventosas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.95,0:00:43.10,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Y lo más impresionante
+Dialogue: 0,0:00:43.11,0:00:44.12,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}es que puede {\c&H2BD7FF&}despegar{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.13,0:00:45.18,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}sus {\c&H2BD7FF&}dedos{\c&HFFFFFF&} de forma
+Dialogue: 0,0:00:45.19,0:00:46.68,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}controlada{\c&HFFFFFF&} para dar cada
+Dialogue: 0,0:00:46.69,0:00:47.53,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}paso.
+Dialogue: 0,0:00:47.89,0:00:49.50,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡La {\c&H2BD7FF&}naturaleza{\c&HFFFFFF&} tiene soluciones
+Dialogue: 0,0:00:49.51,0:00:50.34,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}increíbles!{\c&HFFFFFF&}
+Dialogue: 1,0:00:24.30,0:00:26.90,Callout,,0,0,0,,{\pos(540,470)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}SETAS
+Dialogue: 1,0:00:25.30,0:00:26.90,Callout,,0,0,0,,{\pos(540,560)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}≈ 0,1 mm
+Dialogue: 1,0:00:27.30,0:00:28.90,Callout,,0,0,0,,{\pos(540,470)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}ESPÁTULAS
+Dialogue: 1,0:00:33.45,0:00:36.40,Callout,,0,0,0,,{\pos(540,430)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}FUERZAS DE
+Dialogue: 1,0:00:33.45,0:00:36.40,Callout,,0,0,0,,{\pos(540,520)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}VAN DER WAALS
+Dialogue: 1,0:00:39.60,0:00:41.30,Callout,,0,0,0,,{\pos(540,470)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}SIN PEGAMENTO
+Dialogue: 1,0:00:39.90,0:00:41.30,Callout,,0,0,0,,{\pos(540,560)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}SIN VENTOSAS
+Dialogue: 1,0:00:50.55,0:00:51.95,Brand,,0,0,0,,{\pos(540,930)\fad(250,300)}CURIOSIDADES\N{\c&H2BD7FF&}EXTRAORDINARIAS
