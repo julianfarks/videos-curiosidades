@@ -8,6 +8,7 @@ Serie de vídeos verticales (TikTok · YouTube Shorts · Instagram Reels) de ani
 |---|---|---|---|---|
 | 001 | ¿Por qué los geckos no se caen? | [`videos/episodio-001-geckos.mp4`](videos/episodio-001-geckos.mp4) | 52 s | [`episodios/episodio-001-geckos`](episodios/episodio-001-geckos) |
 | 002 | ¿Por qué este animal hace cubos con su caca? (wombat) | [`videos/episodio-002-wombat-cubos.mp4`](videos/episodio-002-wombat-cubos.mp4) | 49,5 s | [`episodios/episodio-002-wombat-cubos`](episodios/episodio-002-wombat-cubos) |
+| 003 | El animal que puede sobrevivir en el espacio (tardígrado) | [`videos/episodio-003-tardigrado-espacio.mp4`](videos/episodio-003-tardigrado-espacio.mp4) | 49,7 s | [`episodios/episodio-003-tardigrado-espacio`](episodios/episodio-003-tardigrado-espacio) |
 
 ## Estructura del repositorio
 

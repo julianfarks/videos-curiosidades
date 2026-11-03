@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
+Style: Callout,Inter ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,3,0,1,5,2,5,40,40,40,1
+Style: Brand,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,4,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.55,0:00:02.02,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Este animal puede {\c&H2BD7FF&}sobrevivir{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.03,0:00:03.58,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}en el {\c&H2BD7FF&}espacio{\c&HFFFFFF&} {\c&H2BD7FF&}exterior!{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.21,0:00:04.70,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Y no,
+Dialogue: 0,0:00:04.71,0:00:06.24,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}no es un {\c&H2BD7FF&}extraterrestre...{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.25,0:00:07.10,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡es un animal {\c&H2BD7FF&}real{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.11,0:00:07.82,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}que cabe en la
+Dialogue: 0,0:00:07.83,0:00:09.30,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}punta de una {\c&H2BD7FF&}aguja!{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.63,0:00:10.72,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Se llama {\c&H2BD7FF&}tardígrado,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.73,0:00:11.60,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}también conocido como
+Dialogue: 0,0:00:11.61,0:00:12.74,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}oso{\c&HFFFFFF&} de {\c&H2BD7FF&}agua.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.85,0:00:13.78,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Es tan {\c&H2BD7FF&}pequeño{\c&HFFFFFF&} que
+Dialogue: 0,0:00:13.79,0:00:14.86,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}normalmente necesitas
+Dialogue: 0,0:00:14.87,0:00:16.86,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}un {\c&H2BD7FF&}microscopio{\c&HFFFFFF&} para observarlo.
+Dialogue: 0,0:00:16.95,0:00:17.70,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Cuando las condiciones
+Dialogue: 0,0:00:17.71,0:00:18.88,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}se vuelven {\c&H2BD7FF&}extremas,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.89,0:00:19.92,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}algunos {\c&H2BD7FF&}tardígrados{\c&HFFFFFF&} pueden
+Dialogue: 0,0:00:19.93,0:00:20.96,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}entrar en un estado
+Dialogue: 0,0:00:20.97,0:00:22.64,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}llamado {\c&H2BD7FF&}criptobiosis.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.03,0:00:24.22,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Su {\c&H2BD7FF&}metabolismo{\c&HFFFFFF&} se reduce
+Dialogue: 0,0:00:24.23,0:00:25.98,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}hasta niveles casi {\c&H2BD7FF&}indetectables{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.99,0:00:27.16,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}y su cuerpo adopta
+Dialogue: 0,0:00:27.17,0:00:28.30,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}una forma {\c&H2BD7FF&}compacta.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.31,0:00:30.70,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}En experimentos {\c&H2BD7FF&}científicos,{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.71,0:00:31.66,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}algunos {\c&H2BD7FF&}tardígrados{\c&HFFFFFF&} han
+Dialogue: 0,0:00:31.67,0:00:32.72,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}conseguido {\c&H2BD7FF&}sobrevivir{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.73,0:00:33.60,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}a la exposición al
+Dialogue: 0,0:00:33.61,0:00:34.74,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}vacío{\c&HFFFFFF&} {\c&H2BD7FF&}espacial{\c&HFFFFFF&} durante
+Dialogue: 0,0:00:34.75,0:00:36.36,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}un tiempo {\c&H2BD7FF&}limitado.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.61,0:00:38.68,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Es una resistencia {\c&H2BD7FF&}extraordinaria{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.69,0:00:39.58,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}para un animal tan
+Dialogue: 0,0:00:39.59,0:00:40.72,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}diminuto!{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.31,0:00:42.44,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Y tú preocupándote por
+Dialogue: 0,0:00:42.45,0:00:43.88,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}llegar vivo al {\c&H2BD7FF&}lunes...{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.07,0:00:45.08,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡este {\c&H2BD7FF&}pequeñín{\c&HFFFFFF&} ya tiene
+Dialogue: 0,0:00:45.09,0:00:46.14,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}experiencia fuera de la
+Dialogue: 0,0:00:46.15,0:00:46.63,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}Tierra!{\c&HFFFFFF&}
+Dialogue: 1,0:00:07.00,0:00:09.00,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}PUNTA DE AGUJA
+Dialogue: 1,0:00:10.80,0:00:12.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}OSO DE AGUA
+Dialogue: 1,0:00:11.40,0:00:12.70,Callout,,0,0,0,,{\pos(540,380)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}8 PATAS
+Dialogue: 1,0:00:14.00,0:00:16.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}≈ 0,5 mm
+Dialogue: 1,0:00:20.40,0:00:23.00,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}CRIPTOBIOSIS
+Dialogue: 1,0:00:23.40,0:00:26.00,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}METABOLISMO CASI DETENIDO
+Dialogue: 1,0:00:26.10,0:00:28.60,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}FORMA COMPACTA («TONEL»)
+Dialogue: 1,0:00:29.40,0:00:32.30,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}MISIÓN FOTON-M3 · 2007
+Dialogue: 1,0:00:30.20,0:00:32.30,Callout,,0,0,0,,{\pos(540,375)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}10 DÍAS EN ÓRBITA
+Dialogue: 1,0:00:32.60,0:00:36.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}SOLO EN ESTADO DESHIDRATADO
+Dialogue: 1,0:00:34.40,0:00:36.40,Callout,,0,0,0,,{\pos(540,375)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}NO TODOS SOBREVIVIERON
+Dialogue: 1,0:00:37.60,0:00:40.30,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}REHIDRATACIÓN
+Dialogue: 1,0:00:48.30,0:00:49.60,Brand,,0,0,0,,{\pos(540,930)\fad(250,200)}Curiosidades\N{\c&H2BD7FF&}FarKs

@@ -1,0 +1,165 @@
+CURIOSIDADES FARKS — EPISODIO 003
+
+EL ANIMAL QUE PUEDE SOBREVIVIR EN EL ESPACIO
+
+Objetivo: Crear un vídeo de aproximadamente 50 segundos que atrape al espectador desde el primer segundo. Quiero una introducción impactante, un giro inesperado, humor y una explicación científica visualmente espectacular.
+
+Esta vez quiero que el inicio sea mucho más agresivo narrativamente: primero mostrar algo que parezca imposible y después revelar qué animal es.
+
+1. EL GANCHO — PRIMEROS 7 SEGUNDOS
+
+ESCENA 1: UN ANIMAL EN EL ESPACIO
+
+Visual:
+
+Comenzar directamente en el espacio exterior. La Tierra aparece al fondo, con una cámara cinematográfica acercándose lentamente a un pequeño ser vivo flotando.
+
+Mostrar una criatura microscópica flotando en el vacío espacial. La cámara se acerca hasta revelar que es un tardígrado.
+
+Añadir un sonido cinematográfico de impacto cuando aparezca.
+
+Narración EXACTA:
+
+«¡Este animal puede sobrevivir en el espacio exterior! Y no, no es un extraterrestre... ¡es un animal real que cabe en la punta de una aguja!»
+
+La primera imagen debe generar una pregunta inmediata en la cabeza del espectador.
+
+2. EL DESCUBRIMIENTO — 7 A 15 SEGUNDOS
+
+Visual:
+
+Mostrar el tardígrado caminando lentamente sobre una superficie vegetal, con sus ocho pequeñas patas.
+
+La cámara hace un acercamiento y muestra su cuerpo con gran detalle.
+
+Narración:
+
+«Se llama tardígrado, también conocido como oso de agua. Es tan pequeño que normalmente necesitas un microscopio para observarlo».
+
+Mostrar una comparación de tamaño entre un dedo humano y este diminuto organismo.
+
+3. SU SUPERPODER — 15 A 28 SEGUNDOS
+
+Visual:
+
+Mostrar una animación científica tridimensional del tardígrado entrando progresivamente en un estado de deshidratación extrema llamado criptobiosis.
+
+Su cuerpo se contrae y queda en un estado de actividad metabólica extremadamente reducida.
+
+Utilizar una transición microscópica espectacular.
+
+Narración:
+
+«Cuando las condiciones se vuelven extremas, algunos tardígrados pueden entrar en un estado llamado criptobiosis. Su metabolismo se reduce hasta niveles casi indetectables y su cuerpo adopta una forma compacta».
+
+4. EL EXPERIMENTO MÁS IMPRESIONANTE — 28 A 41 SEGUNDOS
+
+Visual:
+
+Mostrar una representación cinematográfica de un tardígrado expuesto a condiciones extremas del espacio.
+
+La cámara muestra la Tierra a lo lejos, partículas flotando y el pequeño organismo.
+
+Después, mostrar una animación de su regreso a condiciones adecuadas y su reactivación.
+
+Narración:
+
+«En experimentos científicos, algunos tardígrados han conseguido sobrevivir a la exposición al vacío espacial durante un tiempo limitado. ¡Es una resistencia extraordinaria para un animal tan diminuto!»
+
+No representar que todos los tardígrados sobreviven a cualquier condición ni que pueden vivir indefinidamente en el espacio.
+
+5. EL REMATE — 41 A 50 SEGUNDOS
+
+Visual:
+
+El tardígrado aparece caminando tranquilamente sobre una hoja.
+
+La cámara se acerca a su rostro y muestra sus pequeñas patas.
+
+Narración:
+
+«Y tú preocupándote por llegar vivo al lunes... ¡este pequeñín ya tiene experiencia fuera de la Tierra!»
+
+Terminar con un efecto sonoro cómico y una toma del tardígrado caminando.
+
+6. ESTILO DE ANIMACIÓN
+
+MUY IMPORTANTE: conservar exactamente la identidad visual de los dos episodios anteriores.
+
+- Animación 3D cinematográfica.
+- Calidad de película animada moderna.
+- Personajes tridimensionales detallados.
+- Iluminación profesional.
+- Texturas naturales.
+- Movimientos fluidos.
+- Expresiones divertidas cuando corresponda.
+- Macrofotografía científica.
+- Transiciones cinematográficas.
+- Escenarios espaciales espectaculares.
+
+El tardígrado debe ser científicamente reconocible, pero visualmente atractivo y expresivo.
+
+No convertirlo en un extraterrestre ni en un monstruo.
+
+7. AUDIO Y SUBTÍTULOS
+
+Voz:
+
+- Masculina.
+- Español latino neutro.
+- Tono curioso, sorprendente y divertido.
+- Narración dinámica.
+- Voz generada mediante IA si está disponible.
+
+Subtítulos:
+
+- Sincronizados con la voz.
+- Letras blancas gruesas.
+- Contorno negro.
+- Palabras importantes resaltadas en amarillo.
+- Posición inferior centrada.
+
+Música:
+
+- Instrumental cinematográfica.
+- Misteriosa al principio.
+- Épica durante la explicación espacial.
+- Divertida durante el remate.
+
+8. REQUISITOS TÉCNICOS
+
+- Duración aproximada: 50 segundos.
+- Formato vertical 9:16.
+- Resolución 1080 × 1920.
+- 30 FPS o superior.
+- MP4.
+- Sin marcas de agua.
+- Sin imágenes estáticas disfrazadas de animación.
+- Buena continuidad visual.
+- Narración perfectamente sincronizada.
+
+9. PUBLICACIÓN
+
+Subir el vídeo terminado al repositorio:
+
+https://github.com/julianfarks/videos-curiosidades
+
+Guardar en:
+
+"videos/episodio-003-tardigrado-espacio.mp4"
+
+No sobrescribir los episodios anteriores.
+
+Adjuntar el MP4 directamente en el chat si es posible y proporcionar el enlace de GitHub.
+
+INSTRUCCIÓN FINAL
+
+Quiero que este vídeo tenga un comienzo que haga que el espectador piense:
+
+«¡¿Cómo que existe un animal que puede sobrevivir en el espacio?!»
+
+No reveles toda la explicación al principio. Mantén la curiosidad, construye la sorpresa y reserva la explicación científica para después del gancho.
+
+La prioridad es conseguir que la gente quiera ver los 50 segundos completos.
+
+Este es el episodio 003 de Curiosidades FarKs.
