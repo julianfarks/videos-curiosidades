@@ -1,0 +1,178 @@
+CURIOSIDADES EXTRAORDINARIAS — EPISODIO 002
+
+¿POR QUÉ ESTE ANIMAL HACE CUBOS CON SU CACA?
+
+Quiero que produzcas un vídeo animado profesional de aproximadamente 50 segundos, con un inicio muy llamativo, humor, curiosidad científica y una explicación visual espectacular.
+
+El objetivo es conseguir que la gente se detenga a mirar desde el primer segundo y quiera quedarse hasta descubrir la respuesta.
+
+TEMA: Los wombats producen excrementos con forma de cubo. ¿Cómo es posible?
+
+1. IDENTIDAD VISUAL OBLIGATORIA
+
+Utiliza exactamente el estilo visual establecido en el episodio 001 de los geckos:
+
+- Animación 3D cinematográfica de alta calidad.
+- Estética de película animada moderna.
+- Personajes 3D con expresiones faciales.
+- Texturas detalladas y naturales.
+- Iluminación cinematográfica.
+- Movimientos fluidos y naturales.
+- Cámaras dinámicas.
+- Animación física creíble.
+- Escenarios tridimensionales completos.
+- Macrofotografía científica espectacular.
+
+NO cambies el estilo artístico. Este será el estilo permanente de toda la serie.
+
+2. GUION Y ESCENAS
+
+ESCENA 1 — EL GANCHO (0-8 segundos)
+
+Crear una escena cómica en un bosque australiano.
+
+Aparece un wombat caminando tranquilamente. La cámara lo sigue y, de repente, muestra varios pequeños excrementos perfectamente cúbicos en el suelo.
+
+La cámara hace un acercamiento dramático a uno de los cubos.
+
+Narrador:
+
+«¡Este animal hace caca en forma de cubo! Sí, has escuchado bien... ¡CUBOS!»
+
+El wombat mira hacia la cámara con expresión inocente.
+
+Añadir un efecto sonoro cómico cuando aparezcan los cubos.
+
+ESCENA 2 — LA PREGUNTA (8-15 segundos)
+
+Mostrar al wombat observando uno de los cubos.
+
+La cámara gira alrededor del animal y realiza un acercamiento a su cara.
+
+Narrador:
+
+«Pero ¿cómo puede un animal fabricar algo así? ¿Tiene un intestino cuadrado?»
+
+Hacer una pequeña pausa cómica.
+
+ESCENA 3 — ENTRAMOS EN SU CUERPO (15-27 segundos)
+
+La cámara realiza una transición cinematográfica hacia una representación anatómica educativa del sistema digestivo del wombat.
+
+Mostrar una representación tridimensional simplificada del intestino.
+
+La cámara se acerca progresivamente al intestino grueso.
+
+Narrador:
+
+«¡Pues no! Su intestino no es cuadrado. El secreto está en las diferentes elasticidades de las paredes de su intestino y en las contracciones que moldean las heces».
+
+Mostrar visualmente cómo distintas zonas del intestino contribuyen a formar los lados y las esquinas.
+
+La representación debe ser científicamente razonable y no gráfica.
+
+ESCENA 4 — EL DESCUBRIMIENTO (27-41 segundos)
+
+Crear una animación científica 3D del proceso de formación de los cubos.
+
+Mostrar cómo las diferentes regiones del intestino se contraen y moldean progresivamente el material hasta producir una forma aproximadamente cúbica.
+
+Narrador:
+
+«Los científicos descubrieron que algunas zonas del intestino son más rígidas que otras. Sus contracciones ayudan a formar esas características esquinas».
+
+Mostrar una comparación visual entre una forma redonda y una cúbica.
+
+ESCENA 5 — EL REMATE FINAL (41-50 segundos)
+
+Regresar al bosque australiano.
+
+El wombat aparece caminando tranquilamente junto a varios cubitos en el suelo.
+
+El animal mira a la cámara y se queda inmóvil durante un instante.
+
+Narrador:
+
+«Y lo más increíble es que no necesita tener un trasero cuadrado. ¡Su propio intestino hace todo el trabajo!»
+
+Terminar con un efecto sonoro divertido y una toma del wombat alejándose.
+
+3. NARRACIÓN
+
+- Voz masculina generada por IA.
+- Español latino neutro.
+- Tono divertido, curioso y documental.
+- Buena entonación y pronunciación.
+- Ritmo dinámico.
+- Sin sonar robótico.
+
+Utilizar generación de voz real si está disponible.
+
+4. SUBTÍTULOS
+
+Incluir subtítulos sincronizados con toda la narración.
+
+- Letras blancas y gruesas.
+- Contorno negro.
+- Palabras importantes en amarillo.
+- Posición inferior centrada.
+- Animaciones sutiles.
+- Ortografía perfecta.
+
+5. MÚSICA Y SONIDOS
+
+Música instrumental curiosa, divertida y cinematográfica.
+
+Incluir efectos de:
+
+- Aparición de los cubos.
+- Zoom dramático.
+- Transición al interior del intestino.
+- Animación microscópica.
+- Remate cómico final.
+
+La música nunca debe tapar la voz.
+
+6. REQUISITOS TÉCNICOS
+
+- Duración: 45-50 segundos.
+- Formato vertical 9:16.
+- Resolución 1080 × 1920.
+- Preferiblemente 30 FPS o superior.
+- Archivo MP4.
+- Animación continua, no diapositivas.
+- Sin marcas de agua.
+- Sin errores anatómicos evidentes.
+- Sin cambios de apariencia del wombat entre escenas.
+
+La explicación debe ser científicamente correcta. No afirmar que el ano del wombat tiene forma cuadrada: los cubos se forman dentro del intestino.
+
+7. PUBLICACIÓN EN GITHUB
+
+Sube el vídeo terminado al mismo repositorio que estamos utilizando:
+
+https://github.com/julianfarks/videos-curiosidades
+
+Guardar en la carpeta "videos" con el nombre:
+
+"episodio-002-wombat-cubos.mp4"
+
+No sobrescribir el episodio 001 ni modificar otros vídeos.
+
+Si es posible, adjunta también el MP4 directamente en este chat.
+
+8. ENTREGA
+
+Entregar:
+
+- Vídeo MP4 terminado.
+- Audio de narración.
+- Subtítulos SRT.
+- Proyecto organizado.
+- Confirmación de publicación en GitHub.
+
+No afirmes que el vídeo está terminado o publicado si realmente no se ha generado o subido.
+
+OBJETIVO FINAL: Quiero un vídeo que haga que alguien diga: «¿Cómo que existe un animal que hace caca cuadrada?» y se quede mirando hasta descubrir cómo funciona.
+
+Mantén la identidad visual del episodio de los geckos. Este es el segundo capítulo de nuestra serie Curiosidades FarKs.

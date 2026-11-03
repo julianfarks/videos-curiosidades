@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
+Style: Callout,Inter ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,3,0,1,5,2,5,40,40,40,1
+Style: Brand,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,4,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:02.02,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Este animal hace {\c&H2BD7FF&}caca{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.03,0:00:03.42,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}en forma de {\c&H2BD7FF&}cubo!{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.43,0:00:04.20,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Sí,
+Dialogue: 0,0:00:04.21,0:00:05.46,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}has escuchado bien...
+Dialogue: 0,0:00:05.69,0:00:06.82,Sub,,0,0,0,,{\fad(70,60)\fs104\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}¡CUBOS!{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.25,0:00:09.24,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Pero ¿cómo puede un
+Dialogue: 0,0:00:09.25,0:00:11.64,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}animal fabricar algo así?
+Dialogue: 0,0:00:11.92,0:00:14.03,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¿Tiene un {\c&H2BD7FF&}intestino{\c&HFFFFFF&} {\c&H2BD7FF&}cuadrado?{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.10,0:00:16.13,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Pues no!
+Dialogue: 0,0:00:16.60,0:00:17.87,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Su {\c&H2BD7FF&}intestino{\c&HFFFFFF&} no es
+Dialogue: 0,0:00:17.88,0:00:18.87,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}cuadrado.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.24,0:00:20.27,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}El {\c&H2BD7FF&}secreto{\c&HFFFFFF&} está en
+Dialogue: 0,0:00:20.28,0:00:21.71,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}las diferentes {\c&H2BD7FF&}elasticidades{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.72,0:00:22.63,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de las {\c&H2BD7FF&}paredes{\c&HFFFFFF&} de
+Dialogue: 0,0:00:22.64,0:00:24.23,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}su {\c&H2BD7FF&}intestino{\c&HFFFFFF&} y en
+Dialogue: 0,0:00:24.24,0:00:25.39,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}las {\c&H2BD7FF&}contracciones{\c&HFFFFFF&} que
+Dialogue: 0,0:00:25.40,0:00:26.97,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}moldean{\c&HFFFFFF&} las {\c&H2BD7FF&}heces.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.24,0:00:28.95,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Los {\c&H2BD7FF&}científicos{\c&HFFFFFF&} descubrieron
+Dialogue: 0,0:00:28.96,0:00:29.93,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}que algunas zonas del
+Dialogue: 0,0:00:29.94,0:00:31.57,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}intestino{\c&HFFFFFF&} son más {\c&H2BD7FF&}rígidas{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.58,0:00:32.53,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}que otras.
+Dialogue: 0,0:00:32.84,0:00:34.29,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Sus {\c&H2BD7FF&}contracciones{\c&HFFFFFF&} ayudan
+Dialogue: 0,0:00:34.30,0:00:35.63,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}a formar esas características
+Dialogue: 0,0:00:35.64,0:00:36.75,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}esquinas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.71,0:00:40.96,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Y lo más {\c&H2BD7FF&}increíble{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.97,0:00:42.28,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}es que no necesita
+Dialogue: 0,0:00:42.29,0:00:44.84,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}tener un trasero {\c&H2BD7FF&}cuadrado.{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.09,0:00:46.66,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Su propio {\c&H2BD7FF&}intestino{\c&HFFFFFF&} hace
+Dialogue: 0,0:00:46.67,0:00:47.79,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}todo el {\c&H2BD7FF&}trabajo!{\c&HFFFFFF&}
+Dialogue: 1,0:00:17.00,0:00:18.60,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}INTESTINO: SECCIÓN REDONDA
+Dialogue: 1,0:00:18.70,0:00:19.55,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}ÚLTIMO 17 % DEL INTESTINO
+Dialogue: 1,0:00:20.40,0:00:23.30,Callout,,0,0,0,,{\pos(540,260)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}ZONAS RÍGIDAS
+Dialogue: 1,0:00:20.90,0:00:23.30,Callout,,0,0,0,,{\pos(540,340)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}ZONAS FLEXIBLES
+Dialogue: 1,0:00:24.00,0:00:27.00,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}CONTRACCIONES
+Dialogue: 1,0:00:28.30,0:00:32.40,Callout,,0,0,0,,{\pos(540,230)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}ZONAS RÍGIDAS: MÁS GRUESAS
+Dialogue: 1,0:00:28.30,0:00:32.40,Callout,,0,0,0,,{\pos(540,305)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}Y 4 VECES MÁS RÍGIDAS
+Dialogue: 1,0:00:33.20,0:00:36.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}SE FORMAN LAS ESQUINAS
+Dialogue: 1,0:00:36.90,0:00:39.30,Callout,,0,0,0,,{\pos(255,1190)\fad(120,120)}{\fs46}REDONDA\N{\fs34}otros animales
+Dialogue: 1,0:00:36.90,0:00:39.30,Callout,,0,0,0,,{\pos(825,1190)\fad(120,120)}{\fs46}CÚBICA\N{\fs34}wombat
+Dialogue: 1,0:00:37.70,0:00:39.30,Callout,,0,0,0,,{\pos(825,790)\fad(120,120)}≈ 2 cm
+Dialogue: 1,0:00:48.25,0:00:49.55,Brand,,0,0,0,,{\pos(540,930)\fad(250,200)}Curiosidades\N{\c&H2BD7FF&}FarKs
