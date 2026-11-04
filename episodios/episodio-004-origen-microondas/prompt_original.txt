@@ -1,0 +1,180 @@
+CURIOSIDADES FARKS — EPISODIO 004
+
+EL CHOCOLATE QUE INVENTÓ EL MICROONDAS
+
+Duración: 45-55 segundos.
+
+Objetivo: Crear un vídeo extremadamente entretenido, con un gancho que sorprenda desde el primer segundo, una historia real, humor y una explicación científica visual.
+
+1. ESTILO VISUAL
+
+Mantener EXACTAMENTE el estilo de los episodios anteriores:
+
+- Animación 3D cinematográfica.
+- Calidad de película animada moderna.
+- Modelos tridimensionales detallados.
+- Iluminación cinematográfica.
+- Texturas realistas.
+- Movimientos naturales.
+- Expresiones faciales exageradas cuando corresponda.
+- Escenarios históricos reconstruidos en 3D.
+- Transiciones cinematográficas.
+- Visualizaciones científicas espectaculares.
+
+No cambiar la identidad visual de Curiosidades FarKs.
+
+2. GUION Y ESCENAS
+
+ESCENA 1 — EL GANCHO (0-7 SEGUNDOS)
+
+Visual:
+
+Mostrar a un ingeniero de los años 40 trabajando en un laboratorio lleno de máquinas electrónicas gigantescas.
+
+Lleva una chocolatina en el bolsillo.
+
+De repente, se da cuenta de que el chocolate se ha derretido. Lo saca, lo mira confundido y observa la enorme máquina que tiene delante.
+
+La cámara realiza un acercamiento dramático a la chocolatina derretida.
+
+Narración EXACTA:
+
+«¡Un hombre descubrió accidentalmente cómo cocinar alimentos usando ondas invisibles... por culpa de una chocolatina!»
+
+Añadir un sonido de impacto cuando se revela el chocolate.
+
+ESCENA 2 — EL DESCUBRIMIENTO (7-17 SEGUNDOS)
+
+Visual:
+
+Mostrar al ingeniero Percy Spencer trabajando cerca de un magnetrón, un dispositivo utilizado en sistemas de radar.
+
+La cámara muestra la máquina y después su bolsillo.
+
+Mostrar una reconstrucción visual de cómo descubre que su chocolatina se ha derretido mientras trabaja cerca del equipo.
+
+Narración EXACTA:
+
+«En 1945, el ingeniero Percy Spencer trabajaba con un dispositivo de radar cuando notó que una chocolatina que llevaba en el bolsillo se había derretido».
+
+El personaje debe mostrar sorpresa y curiosidad.
+
+ESCENA 3 — EL EXPERIMENTO (17-29 SEGUNDOS)
+
+Visual:
+
+Mostrar al ingeniero investigando el fenómeno.
+
+Primero aparecen granos de maíz junto al dispositivo y después una animación de las palomitas explotando.
+
+Hacer una transición cómica hacia el ingeniero sorprendido.
+
+Narración EXACTA:
+
+«Decidió investigar qué estaba pasando. Probó con granos de maíz y descubrió que podían convertirse en palomitas gracias a aquellas ondas electromagnéticas».
+
+Mostrar las palomitas saltando en cámara lenta.
+
+ESCENA 4 — LA EXPLICACIÓN CIENTÍFICA (29-42 SEGUNDOS)
+
+Visual:
+
+Transformar el laboratorio en una representación científica microscópica.
+
+Mostrar un alimento dentro de un microondas moderno.
+
+La cámara atraviesa el aparato y muestra una representación animada de las microondas interactuando con las moléculas polares, especialmente las del agua.
+
+Mostrar cómo se genera calor en el alimento.
+
+Narración EXACTA:
+
+«Así nació la idea del microondas. Estas ondas hacen que las moléculas polares, como las del agua, respondan al campo electromagnético y generen calor dentro del alimento».
+
+La explicación debe ser científicamente correcta y visualmente comprensible.
+
+ESCENA 5 — EL REMATE (42-52 SEGUNDOS)
+
+Visual:
+
+Regresar al laboratorio de los años 40.
+
+El ingeniero observa una enorme máquina experimental de cocina.
+
+Transición al presente: una persona mete una comida en un microondas moderno y presiona un botón.
+
+Narración EXACTA:
+
+«Y pensar que uno de los electrodomésticos más utilizados del mundo comenzó con un ingeniero, un radar y una chocolatina derretida».
+
+Terminar con el sonido del microondas y un pequeño efecto cómico.
+
+3. NARRACIÓN Y AUDIO
+
+Generar voz masculina mediante IA, si la herramienta está disponible.
+
+- Español latino neutro.
+- Tono curioso y entretenido.
+- Narración dinámica.
+- Buena pronunciación.
+- Entonación documental.
+- Ritmo natural.
+
+Añadir música cinematográfica de misterio al principio, música dinámica durante los experimentos y un cierre divertido.
+
+4. SUBTÍTULOS
+
+Generar subtítulos perfectamente sincronizados:
+
+- Letras blancas gruesas.
+- Contorno negro.
+- Palabras importantes en amarillo.
+- Posición inferior centrada.
+- Animaciones sutiles.
+- Sin errores ortográficos.
+
+5. REQUISITOS TÉCNICOS
+
+- Duración: 45-55 segundos.
+- Formato vertical 9:16.
+- Resolución 1080 × 1920.
+- 30 FPS o superior.
+- Exportación MP4.
+- Animación continua, no diapositivas.
+- Buena sincronización de audio y vídeo.
+- Sin marcas de agua.
+
+No utilizar imágenes históricas falsas presentándolas como fotografías reales. Las escenas deben entenderse como reconstrucciones animadas.
+
+6. PUBLICACIÓN EN GITHUB
+
+Subir el vídeo terminado al repositorio:
+
+https://github.com/julianfarks/videos-curiosidades
+
+Ruta:
+
+"videos/episodio-004-origen-microondas.mp4"
+
+No sobrescribir episodios anteriores.
+
+Adjuntar el MP4 directamente en el chat si es posible y proporcionar el enlace al archivo publicado.
+
+7. CONTROL DE CALIDAD
+
+Antes de entregar:
+
+- Comprobar que Percy Spencer conserva el mismo aspecto durante las escenas.
+- Revisar que las manos y los objetos no se deformen.
+- Evitar movimientos robóticos.
+- Revisar la sincronización de los subtítulos.
+- Verificar que la explicación científica sea correcta.
+- Comprobar que el vídeo dure aproximadamente 50 segundos.
+
+Si alguna herramienta no está disponible, informar de la limitación sin fingir que el trabajo está terminado.
+
+OBJETIVO PRINCIPAL: Conseguir que el espectador piense: «¿Cómo que el microondas se inventó por una chocolatina?».
+
+Quiero que el inicio sea tan intrigante que la persona tenga ganas de descubrir qué ocurrió. No revelar toda la historia durante los primeros segundos.
+
+Este es el episodio 004 de Curiosidades FarKs. Mantener la identidad visual de los episodios anteriores.

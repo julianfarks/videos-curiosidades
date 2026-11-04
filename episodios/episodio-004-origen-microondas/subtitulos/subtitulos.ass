@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
+Style: Callout,Inter ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,3,0,1,5,2,5,40,40,40,1
+Style: Note,Inter ExtraBold,34,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,2,0,1,3,0,5,40,40,40,1
+Style: Brand,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,4,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:02.86,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}¡Un hombre descubrió {\c&H2BD7FF&}accidentalmente{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.87,0:00:04.30,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}cómo {\c&H2BD7FF&}cocinar{\c&HFFFFFF&} alimentos
+Dialogue: 0,0:00:04.31,0:00:05.66,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}usando {\c&H2BD7FF&}ondas{\c&HFFFFFF&} {\c&H2BD7FF&}invisibles...{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.67,0:00:06.52,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}por culpa de una
+Dialogue: 0,0:00:06.53,0:00:07.54,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}chocolatina!{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.55,0:00:09.73,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}En {\c&H2BD7FF&}1945,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.10,0:00:11.57,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}el ingeniero {\c&H2BD7FF&}Percy{\c&HFFFFFF&} {\c&H2BD7FF&}Spencer{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.58,0:00:13.19,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}trabajaba con un dispositivo
+Dialogue: 0,0:00:13.20,0:00:14.39,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de {\c&H2BD7FF&}radar{\c&HFFFFFF&} cuando notó
+Dialogue: 0,0:00:14.40,0:00:15.49,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}que una {\c&H2BD7FF&}chocolatina{\c&HFFFFFF&} que
+Dialogue: 0,0:00:15.50,0:00:16.49,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}llevaba en el {\c&H2BD7FF&}bolsillo{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.50,0:00:18.03,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}se había {\c&H2BD7FF&}derretido.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.14,0:00:19.51,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Decidió {\c&H2BD7FF&}investigar{\c&HFFFFFF&} qué
+Dialogue: 0,0:00:19.52,0:00:20.71,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}estaba pasando.
+Dialogue: 0,0:00:20.82,0:00:21.83,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Probó con granos de
+Dialogue: 0,0:00:21.84,0:00:23.01,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}maíz{\c&HFFFFFF&} y descubrió que
+Dialogue: 0,0:00:23.02,0:00:24.29,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}podían convertirse en
+Dialogue: 0,0:00:24.30,0:00:26.13,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}palomitas{\c&HFFFFFF&} gracias a aquellas
+Dialogue: 0,0:00:26.14,0:00:28.13,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}ondas{\c&HFFFFFF&} {\c&H2BD7FF&}electromagnéticas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.54,0:00:29.69,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Así nació la idea
+Dialogue: 0,0:00:29.70,0:00:31.05,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}del {\c&H2BD7FF&}microondas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.36,0:00:32.65,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Estas {\c&H2BD7FF&}ondas{\c&HFFFFFF&} hacen que
+Dialogue: 0,0:00:32.66,0:00:34.17,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}las {\c&H2BD7FF&}moléculas{\c&HFFFFFF&} {\c&H2BD7FF&}polares,{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.18,0:00:35.41,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}como las del {\c&H2BD7FF&}agua,{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.42,0:00:37.45,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}respondan al {\c&H2BD7FF&}campo{\c&HFFFFFF&} {\c&H2BD7FF&}electromagnético{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.46,0:00:38.77,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}y generen {\c&H2BD7FF&}calor{\c&HFFFFFF&} dentro
+Dialogue: 0,0:00:38.78,0:00:39.97,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}del {\c&H2BD7FF&}alimento.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.94,0:00:41.73,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}Y pensar que uno
+Dialogue: 0,0:00:41.74,0:00:42.91,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}de los {\c&H2BD7FF&}electrodomésticos{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.92,0:00:44.33,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}más utilizados del mundo
+Dialogue: 0,0:00:44.34,0:00:46.31,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}comenzó con un ingeniero,
+Dialogue: 0,0:00:46.32,0:00:47.39,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}un {\c&H2BD7FF&}radar{\c&HFFFFFF&} y una
+Dialogue: 0,0:00:47.40,0:00:48.82,Sub,,0,0,0,,{\fad(70,60)\fscx86\fscy86\t(0,110,\fscx100\fscy100)}{\c&H2BD7FF&}chocolatina{\c&HFFFFFF&} {\c&H2BD7FF&}derretida.{\c&HFFFFFF&}
+Dialogue: 1,0:00:07.85,0:00:10.10,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}1945 · RAYTHEON (EE. UU.)
+Dialogue: 1,0:00:10.50,0:00:12.30,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}PERCY SPENCER
+Dialogue: 1,0:00:10.90,0:00:12.30,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs40}INGENIERO
+Dialogue: 1,0:00:12.60,0:00:14.60,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}MAGNETRÓN
+Dialogue: 1,0:00:13.00,0:00:14.60,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs40}GENERA MICROONDAS PARA EL RADAR
+Dialogue: 1,0:00:20.90,0:00:22.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}GRANOS DE MAÍZ
+Dialogue: 1,0:00:24.00,0:00:25.50,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}¡PALOMITAS!
+Dialogue: 1,0:00:32.20,0:00:34.10,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}MOLÉCULA DE AGUA
+Dialogue: 1,0:00:32.60,0:00:34.10,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs40}POLAR: δ− Y δ+
+Dialogue: 1,0:00:34.30,0:00:37.30,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}CAMPO ELECTROMAGNÉTICO
+Dialogue: 1,0:00:34.80,0:00:37.30,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs38}OSCILA ≈ 2.450 MILLONES DE VECES/S
+Dialogue: 1,0:00:37.60,0:00:40.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs48}LAS MOLÉCULAS GIRAN Y CHOCAN
+Dialogue: 1,0:00:38.10,0:00:40.40,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs46}→ CALOR
+Dialogue: 1,0:00:41.20,0:00:44.40,Callout,,0,0,0,,{\pos(540,300)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}RADARANGE (1947)
+Dialogue: 1,0:00:41.70,0:00:44.40,Callout,,0,0,0,,{\pos(540,368)\fad(120,120)\fscx80\fscy80\t(0,160,\fscx100\fscy100)}{\fs40}≈ 1,8 m · ≈ 340 kg
+Dialogue: 1,0:00:07.70,0:00:28.30,Note,,0,0,0,,{\pos(540,150)\fad(200,200)}Reconstrucción animada
+Dialogue: 1,0:00:40.70,0:00:44.80,Note,,0,0,0,,{\pos(540,150)\fad(200,200)}Reconstrucción animada
+Dialogue: 1,0:00:50.75,0:00:52.20,Brand,,0,0,0,,{\pos(540,930)\fad(250,200)}Curiosidades\N{\c&H2BD7FF&}FarKs
